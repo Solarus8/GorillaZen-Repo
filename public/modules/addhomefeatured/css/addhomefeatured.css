@@ -1,0 +1,196 @@
+/* ————— homefeatured.tpl ————— */
+.addhomefeatured .fLeft { float:left; padding-top:4px;
+}
+.addhomefeatured h4 {
+	font-family: 'Fjalla One', sans-serif;
+	border-bottom:3px solid #353535;
+	color:#297ea5;
+	font-size: 22px;
+	line-height: 1.5;
+	padding-bottom:2px;
+	text-transform:uppercase;
+	margin-bottom:39px;
+}
+.addhomefeatured ul {
+	list-style: none;
+}
+.addhomefeatured ul li {
+	text-align: center;
+	margin-bottom: 38px;
+	float: left;
+	position: relative;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+.addhomefeatured ul li.alpha { clear:left;}
+.addhomefeatured ul .featured_li {
+	text-align: center;
+}
+.addhomefeatured ul li a {
+	position: relative;
+}
+.addhomefeatured ul li img.next-img {
+	z-index: 9;
+	width: 200px;
+	position: absolute;
+	top: 0;
+	left: 30px;
+}
+.addhomefeatured ul li img {
+	display: block;
+	overflow: hidden;
+}
+.addhomefeatured ul li img.main-img {
+	display: block;
+}
+.addhomefeatured ul li .product_image {
+	border-bottom: 1px solid #D7D7D7;
+    display: block;
+    overflow: hidden;
+    padding: 0px 35px 37px;
+    position: relative;
+}
+.addhomefeatured ul li  {
+}
+.addhomefeatured ul li div {
+	text-align: left;
+}
+.addhomefeatured ul li .featured_li > div { overflow:hidden;}
+.addhomefeatured ul li h5 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0px;
+	color:#000;
+	padding-top:16px;
+}
+.addhomefeatured ul li h5 a {font-size: 16px;color:#000;}
+.addhomefeatured ul li p.product_desc {
+	padding: 4px 0 0 0;
+	font-family: 'Fjalla One', sans-serif;
+	font-weight:normal;
+	font-size:13px;
+	line-height:19px;
+	text-transform:uppercase;
+	margin-bottom:13px;
+}
+.addhomefeatured ul li span.price {
+	display: inline-block;
+	padding: 0px 0 0px 0;
+}
+.addhomefeatured .price-drop-feacherd {
+	text-decoration: line-through;
+	margin-left: 7px;
+	display:none;
+}
+.addhomefeatured ul li .button {
+	display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.addhomefeatured ul li h5 {
+	font-size: 13px;
+}
+.addhomefeatured ul li h5 a {font-size: 13px;}
+.addhomefeatured ul li p.product_desc {
+	font-size:11px;
+}
+.addhomefeatured ul li span.price {
+	font-size:17px;
+}
+.addhomefeatured ul li a.btn_add_cart { font-size:13px;}
+.addhomefeatured ul li a.btn_add_cart span { line-height:15px;}
+.addhomefeatured ul li .product_image {
+    border-bottom: 1px solid #D7D7D7;
+    display: block;
+    overflow: hidden;
+    padding: 0 20px 20px;
+    position: relative;
+}
+}
+@media only screen and (max-width: 767px) {
+.addhomefeatured h4 {
+	font-size: 17px;
+	padding: 10px 11px 10px 0px;
+	margin-bottom: 20px
+}
+.addhomefeatured ul .featured_li {
+	padding: 0;
+}
+.addhomefeatured ul li div {
+	text-align: left;
+}
+.addhomefeatured ul li {
+	float: left;
+	margin: 0 0 20px 0;
+	border: 1px solid #cccccc;
+	padding: 16px 20px 20px 20px;
+}
+.addhomefeatured ul li:first-child {
+}
+.addhomefeatured ul li:first-child .featured_li {
+	padding-top: 0;
+}
+.addhomefeatured ul li h5 {
+	padding: 0px 0 7px 0;
+}
+.addhomefeatured ul li .product_image.feat-mobile {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	height: 181px;
+	padding-bottom: 0;
+	text-align: center;
+	width: 118px;
+}
+.addhomefeatured ul li .product_image {
+	width: 118px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-top: 4px;
+	padding:0;
+	border:none;
+}
+.addhomefeatured ul li span.price {
+	padding: 12px 0 4px 0;
+	font-size: 24px;
+	display: block;
+}
+.addhomefeatured ul li.num-1 .featured_li, .addhomefeatured ul li.num-2 .featured_li, .addhomefeatured ul li.num-3 .featured_li, .addhomefeatured ul li.num-4 .featured_li {
+	border: none;
+}
+.addhomefeatured ul li .button {
+	display: none;
+}
+.addhomefeatured ul li .exclusive, .addhomefeatured ul li a.exclusive {
+	float:left;
+	margin: 20px 16px 0 0;
+}
+.addhomefeatured ul li p.product_desc {
+	display: block;
+	margin: 0;
+}
+.addhomefeatured .price-drop-feacherd {
+	margin-left: 0px;
+}
+.addhomefeatured .fLeft {
+    padding-top: 17px;
+}	
+.addhomefeatured ul li span.price {
+    margin-right: 40px;
+}
+}
+@media only screen and (max-width: 480px) { 
+.addhomefeatured ul li p.product_desc {
+    display: none;
+}
+.addhomefeatured ul li .exclusive, .addhomefeatured ul li a.exclusive {
+	clear:left;
+}
+.addhomefeatured .fLeft {
+    padding-top: 0px;
+}
+}

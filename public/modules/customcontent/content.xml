@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<items>
+  <item>
+    <inst>item_inst_0</inst>
+    <hook>top</hook>
+    <url><![CDATA[index.php?id_product=1&controller=product]]></url>
+    <html>
+        <lang_1><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Sailors</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_1>
+        <lang_2><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Sailors</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_2>
+        <lang_3><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Sailors</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_3>
+        <lang_4><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Sailors</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_4>
+        <lang_5><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Sailors</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_5>
+    </html>
+
+    <imgWidth>370</imgWidth>
+    <imgHeight>214</imgHeight>
+    <img>e8c4f65409718cbb6705c69d6e058d7a.jpg</img>
+ </item>
+  <item>
+    <inst>item_inst_1</inst>
+    <hook>top</hook>
+    <url><![CDATA[index.php?id_product=1&controller=product]]></url>
+    <html>
+        <lang_1><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Cruisers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_1>
+        <lang_2><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Cruisers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_2>
+        <lang_3><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Cruisers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_3>
+        <lang_4><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Cruisers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_4>
+        <lang_5><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Cruisers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_5>
+    </html>
+
+    <imgWidth>370</imgWidth>
+    <imgHeight>214</imgHeight>
+    <img>1df4ac4a073d5c387edfc5ae9689bf48.jpg</img>
+ </item>
+  <item>
+    <inst>item_inst_2</inst>
+    <hook>top</hook>
+    <url><![CDATA[index.php?id_product=1&controller=product]]></url>
+    <html>
+        <lang_1><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Anglers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_1>
+        <lang_2><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Anglers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_2>
+        <lang_3><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Anglers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_3>
+        <lang_4><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Anglers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_4>
+        <lang_5><![CDATA[<div class="contant-banner">
+<h3>Gear for <b>Anglers</b></h3> 
+<p>Lorem ipsum dolor sit amet conse ctetur adip isicing elit</p>
+<i class="icon-circle-arrow-right"></i>
+</div>]]></lang_5>
+    </html>
+
+    <imgWidth>370</imgWidth>
+    <imgHeight>214</imgHeight>
+    <img>030ddb53e9e65735c1617c5a17b25126.jpg</img>
+ </item>
+</items>

@@ -1,0 +1,419 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <title>Gorilla Zen Clothing Company</title>
+  <meta content="Gorilla Zen Clothing Company is a company that makes quality clothes for outdoor enthusiasts, climbers, skiers and everyday casual ready to wear." name="description" />
+  <meta content="Retail, Apparel, Clothing, Sporting Goods, Jackets, Fleeces, Boots, Backpacks, Hats, Boots, Hiking, Running Biking, Skiing, Surfing, Camping, Travel, Adventure, Outdoor, Nature, Green, Ocean, Water" name="keywords" />
+  <meta content="EN-US" name="language" />
+  <link href="http://www.gorillazen.com/" hreflang="en-US" rel="alternate" />
+  <meta content="no" http-equiv="imagetoolbar" />
+  <script language="JavaScript" src="assets/gz-js/prototype.js" type="text/javascript"></script>
+
+  <!-- begin css -->
+  <link href="assets/gorillazen/base.css" rel="stylesheet" type="text/css" />
+  <link href="assets/gorillazen/lightbox.css" rel="stylesheet" type="text/css" />
+  <link href="assets/gorillazen/homepage_touch.css" rel="stylesheet" type="text/css" />
+  <link href="assets/gorillazen/about_photographer.css" rel="stylesheet" type="text/css" />
+  <!-- end css -->
+
+  <!-- begin favicons -->
+  <link rel="icon" type="img/png" href="assets/favicons/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/touch-icon-ipad-retina.png">
+  <!-- end favicons -->
+
+  <script language="JavaScript" src="assets/gz-js/AjaxWrapperClass.js" type="text/javascript"></script>
+  <!--<script language="JavaScript" src="assets/gz-js/TopNav.js" type="text/javascript"></script>-->
+  <script language="JavaScript" src="assets/gz-js/Global.js" type="text/javascript"></script>
+  <script language="JavaScript" src="assets/gz-js/moo.fx.js" type="text/javascript"></script>
+  <script language="JavaScript" src="assets/gz-js/OmnitureWrapperClass.js" type="text/javascript"></script>
+  <script language="JavaScript" src="assets/gz-js/effects.js" type="text/javascript"></script>
+  <script language="JavaScript" src="assets/gz-js/lightbox++.js" type="text/javascript"></script>
+  <script language="javascript" type="text/javascript">
+//<![CDATA[
+    
+    
+    
+    
+    document.observe("dom:loaded", function() {
+
+    var slideImg0 = new Image();
+        slideImg0.onload = function(){ homeSlide.imageLoading(); };
+        slideImg0.src = 'assets/elements/rock.jpg';
+    var slideImg1 = new Image();
+        slideImg1.onload = function(){ homeSlide.imageLoading(); };
+        slideImg1.src = 'assets/elements/snow.jpg';
+    var slideImg2 = new Image();
+        slideImg2.onload = function(){ homeSlide.imageLoading(); };
+        slideImg2.src = 'assets/elements/mud.jpg';
+    var slideImg3 = new Image();
+        slideImg3.onload = function(){ homeSlide.imageLoading(); };
+        slideImg3.src = 'assets/elements/mountain.jpg';
+    var slideImg4 = new Image();
+        slideImg4.onload = function(){ homeSlide.imageLoading(); };
+        slideImg4.src = 'assets/elements/water.jpg';
+
+  if(homeSlide.version == 'touch'){
+    homeSlide.touch.init();
+  }
+  else {
+  homeSlide.desktop.init();
+  }
+    });
+    //-->
+  //]]>
+  </script>
+  
+  <script language="JavaScript" src="assets/gz-js/swipeview.js" type="text/javascript"></script>
+  <script language="JavaScript" src="assets/gz-js/home-touch.js" type="text/javascript"></script>
+  <script language="javascript" type="text/javascript">
+//<![CDATA[
+      
+      
+    homeSlide.totalSlides = 5; 
+      homeSlide.winWidth =  document.viewport.getWidth();
+      
+      if(screen.width < 560){
+        var imgParam = '&wid=650'
+      } else 
+       if(homeSlide.winWidth < 1024){
+        var imgParam = '&wid=1152'
+      } else 
+       if(homeSlide.winWidth < 1280){
+        var imgParam = '&wid=1280'
+      } else {
+        var imgParam = '&wid=1400'
+      }
+      
+      var slides = new Array();
+    
+    slides[0] = {
+      html: '<div class="homeslidediv" style=""><a href="#"><img src="assets/elements/rock.jpg" alt="Rock Climbing" title="Rock Climbing" class="homeslideimg" id="homeslideimg0" /><\/a><\/div>',
+      caption:'Tenacious Zach ascends Loaded with Power (V10) in Hueco Tanks, Texas.',
+      photog: 'Dana Le'
+    }
+    
+    slides[1] = {
+      html: '<div class="homeslidediv" style=""><a href="#"><img src="assets/elements/snow.jpg" alt="Winter Sports" title="Winter Sports" class="homeslideimg" id="homeslideimg1" /><\/a><\/div>',
+      caption:'Telemark skier carves down an clean slope on a beautiful day in Tahoe.',
+      photog: 'Public Domain'
+    }
+    
+    slides[2] = {
+      html: '<div class="homeslidediv" style=""><a href="#"><img src="assets/elements/mud.jpg" alt="Mountain Biking Apparel" title="Mountain Biking Apparel" class="homeslideimg" id="homeslideimg2" /><\/a><\/div>',
+      caption:'Phil and Pam Gradwell shredding through mud and fog near the Forest of Bowland.',
+      photog: 'Phil & Pam Gradwell'
+    }
+    
+    slides[3] = {
+      html: '<div class="homeslidediv" style=""><a href="#"><img src="assets/elements/mountain.jpg" alt="Alpine Gear" title="Alpine Gear" class="homeslideimg" id="homeslideimg3" /><\/a><\/div>',
+      caption:'Crossing the San Gabriel crest above the Cajón del Maipo, in the Chilean Andes.',
+      photog: 'Christian Ordenes'
+    }
+    
+    slides[4] = {
+      html: '<div class="homeslidediv" style=""><a href="#"><img src="assets/elements/water.jpg" alt="Water Sports" title="Water Sports" class="homeslideimg" id="homeslideimg4" /><\/a><\/div>',
+      caption:'Sea kayaking through the remote waterways around northern Vancouver Island, British Columbia.',
+      photog: 'Natalie Lucier'
+    }
+    
+  //]]>
+  </script>
+</head>
+
+<body class="home">
+  <div class="wrapperUS" id="wrapper">
+    <div id="navWrapper">
+      <a href="http://www.gorillazen.com/"><img alt="Gorilla Zen" border="0" height="40" id="navLogo" src="assets/logos/gorilla-zen-logo.png" title="Gorilla Zen" /></a>
+
+      <div id="navUtilities">
+        <div id="navSearch">
+          <form action="" id="holsterSearchForm" method="get" onsubmit="">
+            <input class="mainFormInput" id="" name="" onblur="" onfocus="" type="text" value="site search - keyword or style #" /><input alt="search" class="mainFormSubmit" id="btnsearch" name="" type="submit" />
+          </form>
+        </div>
+
+        <div id="navCallUs">
+          <a class="promoText" href="#" onclick="" title="Gorilla Zen Pre-Order Discounts">AWESOME DEALS</a>&nbsp;<a href="#" onclick="">on pre-orders</a> | <strong><a href="mailto:jon@gorillazen.com">Email us</a> now</strong>
+        </div>
+      </div>
+
+      <ul id="navigation">
+        <li class="topNav" id="topNavShop">
+          <a href="#" id="ashopcg" onclick="return false;">SHOP CLOTHING &amp; GEAR</a>
+
+          <div class="subNav sn" style="margin-left: 2em">
+            <div id="divsn">
+              <ul class="outer">
+                <li class="sn_col first">
+                  <ul class="inner">
+                    <li class="sn_heading addon">
+                      <a href="#">Men’s</a>
+                    </li>
+                    <!--<li><a href="shop.php?catname=test-product-jacket">Shorts</a></li> -->
+                    <li>Shorts</li>
+                    <li><a href="#">Jackets</a></li>
+                  
+                  </ul>
+                </li>
+
+                <li class="sn_col">
+                  <ul class="inner">
+                    <li class="sn_heading addon">
+                      <a href="#">Women’s</a>
+                    </li>
+                    
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Jackets</a></li>
+                    <li><a href="#">Yoga</a></li>
+                  </ul>
+                </li>
+
+                <li class="sn_col">
+                  <ul class="inner">
+                    <li class="sn_heading addon">
+                      <a href="#">Packs &amp; Gear</a>
+                    </li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Backpacks</a></li>
+                    <li><a href="#">Laptop Bags</a></li>
+                
+                  </ul>
+                </li>
+
+                
+
+               
+              </ul>
+
+            </div>
+          </div>
+        </li><!-- end of super_nav insert -->
+
+        <li class="topNav last" id="topNavExplore">
+          <a href="#" id="aexplorecg" onclick="return false;">INSIDE GORILLA ZEN</a>
+
+          <div class="subNav sn" style="margin-left: 2em">
+            <div id="divsnExplore">
+              <ul class="outer">
+                <li class="sn_col first">
+                  <ul class="inner">
+                    <li class="sn_heading addon">
+                      <a href="">SPORTS</a>
+                    </li>
+                    <li><a href="">Climbing</a></li>
+                    <li><a href="">Fly Fishing</a></li>
+                    <li><a href="">Skiing</a></li>
+                    <li><a href="">Snowboarding</a></li>
+                    <li><a href="">Surfing</a></li>
+                    <li><a href="">Trail Running</a><br /><br /></li>
+                    <li class="sn_heading addon">
+                      <a href="">AFILLIATES</a>
+                    </li>
+                    <li class="sn_dropdown_sub">Meet the field testers and storytellers of our tribe</li>
+                    <li><a href="">Visit Affiliates</a></li>
+                  </ul>
+                </li>
+
+                <li class="sn_col second">
+                  <ul class="inner">
+                    <li class="sn_heading addon">
+                      <a href="">ENVIRONMENTAL AND SOCIAL RESPONSIBILITY</a>
+                    </li>
+                    <li><a href="">Becoming a Responsible Company</a></li>
+                    <li><a href="">Common Threads Partnership</a></li>
+                    <li><a href="">The Footprint Chronicles:<br />Our Supply Chain</a></li>
+                    <li><a href="">Corporate Responsibility</a></li>
+                    <li><a href="">Environmental Grants<br />and Support</a></li>
+                    <li><a href="">Our Common Waters</a></li>
+                    <li><a href="">Campaign Archives</a></li>
+                  </ul>
+                </li>
+
+                <li class="sn_col third">
+                  <ul class="inner">
+                    <li class="sn_heading addon">
+                      <a href="" target="_blank">BLOG</a>
+                    </li>
+                    <li class="sn_dropdown_sub">Stories about all-things Gorilla Zen and beyond</li>
+                    <li><a href="" target="_blank">Visit The Cleanest Line</a><br /><br /></li>
+                    <li class="sn_heading addon">
+                      <a href="" target="_blank">WORN WEAR</a>
+                    </li>
+                    <li class="sn_dropdown_sub">True stories of people and their Gorilla Zen gear</li>
+                    <li><a href="" target="_blank">Visit Worn Wear</a><br /><br /></li>
+                    <li class="sn_heading addon">
+                      <a href="">DESIGN &amp; MATERIALS</a>
+                    </li>
+                    <li class="sn_dropdown_sub">Build the best product, cause no unnecessary harm</li>
+                    <li><a href="">Visit Design &amp; Materials</a></li>
+                  </ul>
+                </li>
+
+                <li class="sn_col fourth">
+                  <ul class="inner">
+                    <li class="sn_heading sn_heading addon">SOCIAL MEDIA</li>
+
+                    <li class="social" id="facebook">
+                      <a href="https://www.facebook.com/GorillaZen" target="_blank">Facebook</a>
+                    </li>
+
+                    <li class="social">
+                      <a href="https://plus.google.com/u/0/102854063747993443901/posts" target="_blank">Google+</a>
+                    </li>
+
+                    <li class="social">
+                      <a href="http://www.linkedin.com/company/3196485" target="_blank">LinkedIn</a>
+                    </li>
+
+                    <li class="social" id="twitter">
+                      <a href="https://twitter.com/GorillaZen360" target="_blank">Twitter</a>
+                    </li>
+
+                    <li class="social" id="pinterest">
+                      <a href="https://www.pinterest.com/gorillazen/pins" target="_blank">Pinterest</a>
+                    </li>
+
+                    <li class="social" id="youtube">
+                      <a href="https://www.youtube.com/GorillaZen360" target="_blank">YouTube</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="sn_col sn_wide_li">
+                  <ul class="sn_wide_li"></ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div id="holster">
+        <div id="myGearAccount">
+          <a href="#" id="aSignIn">Sign In</a> | <a href="#" id="aAccount">Sign Up</a>
+        </div><a href="#" id="aMyGear">My Cart</a>
+          </div>          
+        </div>
+      </div>
+    </div>   
+  </div>
+
+  <div id="homeslideposition">
+    <div id="homeslidenavouter">
+      <div id="homeslidenav">
+        <img class="navarrow" id="navarrowleft" onclick="homeSlide.prevNext(-1);" src="assets/gorillazen/arrow_left.png" /> <img class="navarrow" id="navarrowright" onclick="homeSlide.prevNext(1);" src="assets/gorillazen/arrow_right.png" />
+
+        <ul id="homeslidenavlinks" style="display: none;">
+          <li><img alt="Rock Climbing" class="navlink active" id="navlink0" onclick="homeSlide.slideToPage(0);" src="assets/gorillazen/clear.gif" title="Rock Climbing" /></li>
+
+          <li><img alt="Winter Sports" class="navlink" id="navlink1" onclick="homeSlide.slideToPage(1);" src="assets/gorillazen/clear.gif" title="Winter Sports" /></li>
+
+          <li><img alt="Mountain Biking Apparel" class="navlink" id="navlink2" onclick="homeSlide.slideToPage(2);" src="assets/gorillazen/clear.gif" title="Mountain Biking Apparel" /></li>
+
+          <li><img alt="Alpine Gear" class="navlink" id="navlink3" onclick="homeSlide.slideToPage(3);" src="assets/gorillazen/clear.gif" title="Alpine Gear" /></li>
+
+          <li><img alt="Water Sports" class="navlink" id="navlink4" onclick="homeSlide.slideToPage(4);" src="assets/gorillazen/clear.gif" title="Water Sports" /></li>
+        </ul>
+
+        <div id="photoposition">
+          <div class="photoCredits" id="homephotocredits" onmouseover="homeSlide.pause();" style="">
+            <img class="infoicon" src="assets/gorillazen/clear.gif" />
+
+            <div class="photoContent" id="homephotocaption" onmouseout="homeSlide.restart();">
+              Tenacious Zach ascends Loaded with Power (V10) in Hueco Tanks, Texas.
+
+              <div class="photoBy">
+                Dana Le
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="homeslidewrapper" style="width: 100%;">
+      <div id="homeslidebox">
+        <div class="homeslide" id="homeslideB">
+          <div class="homeslidediv" style="">
+            <a href="#"><img alt="Rock Climbing" class="homeslideimg" id="homeslideimg0" src="assets/elements/rock.jpg" title="Rock Climbing" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- begin footer -->
+
+  <div class="footeren" id="footer">
+    <div id="footerfitzroy">
+      <!-- -->
+    </div>
+
+    <div id="footercontentwrap">
+      <div id="footercontent">
+        <!-- standard footer -->
+        <div id="footercolumns">
+          <div>
+            <!--  -->
+          </div>
+
+          <div class="footerlist" id="footerCol1">
+            <ul>
+              <li>
+                <a href="#" target="_self" title="Return Policy">Return Policy</a>
+              </li>
+
+              <li>
+                <a href="#" target="_self" title="Contact Us">Contact Us</a>
+              </li>
+
+              <li>
+                <a href="#" target="_self" title="Guarantee">Guarantee</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footerlist" id="footerCol2">
+            <ul>
+              <li>
+                <a href="#" target="_self" title="Affiliates">Affiliates</a>
+              </li>
+
+              <li>
+                <a href="#" target="_self" title="Privacy">Privacy</a>
+              </li>
+
+              <li>
+                <a href="#" target="_self" title="Terms">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <!--  -->
+        </div>
+
+        <div id="footeremailcolumn">
+          <div id="footerEmail">
+            <form action="" id="emailForm" method="post" onsubmit="return ValidateEmailSignUpFooter();">
+              <input id="txtEmailAddress" name="emailaddress" onblur="if(this.value == '') this.value='Sign Up For Gorilla Zen Emails';" onfocus="if(this.value=='Sign Up For Gorilla Zen Emails') this.value = '';" type="text" value="Sign Up For Gorilla Zen Emails" /><button accesskey="S" class="primary" id="footeremailbtn">sign up</button> <input id="emcountry" type="hidden" value="US" />
+            </form>
+          </div>
+
+          <div id="footersocial">
+            <a class="twitter-follow-button" data-show-count="false" href="http://twitter.com/GorillaZen360">Follow @GorillaZen360</a>
+          </div>
+        </div>
+
+        <div id="notice"></div>
+
+        <div id="footercredits"><span id="footerURL">GorillaZen.com®</span> © 2013 Gorilla Zen, LLC.</div>
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
+</html>

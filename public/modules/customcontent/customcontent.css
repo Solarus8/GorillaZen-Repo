@@ -1,0 +1,32 @@
+/*Frontend Styles*/
+.instant_search #customcontent_top { display:none;}
+
+#customcontent_top { position:absolute; left:0; bottom:50px; width:100%;}
+#customcontent_top ul li {
+	position:relative;
+}
+#customcontent_top ul li a {}
+#customcontent_top ul li .contant-banner-link { position:absolute; left:0; top:0; width:100%; height:100%; margin:0; float:none; border:none;}
+#customcontent_top ul li .contant-banner-link .contant-banner { display:block; padding: 34px 21px 10px 213px;}
+#customcontent_top .contant-banner h3 { font-family: 'Fjalla One', sans-serif; font-size:26px; color:#000; text-transform:uppercase; font-weight:normal; margin:0;}
+#customcontent_top .contant-banner h3 b { display:block; font-size:36px; color:#297ea5; font-weight:normal; margin-top:-8px;}
+#customcontent_top .contant-banner p { font-family: 'Fjalla One', sans-serif;font-size:13px;color:#7f7f7f;line-height:19px; text-transform:uppercase; margin:-5px 0 4px;}
+#customcontent_top .contant-banner i { display:block; float:right; font-size:20px;}
+#customcontent_top a:hover .contant-banner i { color:#297ea5; transition: all 0.4s ease 0s; -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg);}
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+#customcontent_top ul li .contant-banner-link .contant-banner { padding: 20px 21px 10px 163px;}
+#customcontent_top .contant-banner h3 { font-size:20px;}
+#customcontent_top .contant-banner h3 b {font-size:30px;}
+#customcontent_top .contant-banner p { font-size:12px; margin-bottom:0;}
+#customcontent_top .contant-banner span {}
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+#customcontent_top ul li .contant-banner-link .contant-banner { padding: 24px 15px 10px 125px;}
+#customcontent_top .contant-banner h3 { font-size:17px;}
+#customcontent_top .contant-banner h3 b {font-size:26px; margin:0 0 5px;}
+#customcontent_top .contant-banner p { display:none;}
+}
+@media only screen and (max-width: 767px) {
+#customcontent_top { display:none;}
+}
