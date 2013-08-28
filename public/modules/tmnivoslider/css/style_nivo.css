@@ -3,11 +3,11 @@
 	display: block;
 	margin:0px 0 0 0px; 
 	padding:0;
-	position: relative; 
 	height: 700px;
     left: 50%;
     margin-left: -960px;
-    position: relative;
+    position: absolute;
+    top: 0px;
     width: 1920px;
     z-index: -1;
 }
