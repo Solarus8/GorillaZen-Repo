@@ -1089,7 +1089,7 @@ SUBCATEGORIES
 .blockpermanentlinks-header {
 	position: absolute;
 	right: 0px;
-	top: 31px;
+	top: 0px;
 }
 #header_links li {
 	float: left;
