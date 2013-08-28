@@ -2,6 +2,7 @@
 #menu-wrap {
 	position:relative;
 	z-index:2;
+    background-color: #000000;
 }
 #menu-custom, #menu-custom ul {margin: 0;padding: 0;list-style: none;}
 #menu-custom {zoom:1;}
