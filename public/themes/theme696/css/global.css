@@ -1079,6 +1079,9 @@ SUBCATEGORIES
 	left: 0px;
 	top: 10px;
 }
+.logo {
+    width: 300px;
+}
 #header-inner {
 	padding: 172px 0px 0px 0px;
 	position: relative;
