@@ -1213,7 +1213,7 @@ SUBCATEGORIES
 ************************************************************************************************ */
 .blockuserinfo {
 	position: absolute;
-	top: 122px;
+	top: 88px;
 	right: 0px;
 }
 .blockuserinfo a span {
@@ -1231,7 +1231,7 @@ SUBCATEGORIES
 #header_user {
 	position: absolute;
 	right: 133px;
-	top: 121px;
+	top: 88px;
 	z-index: 99;
 	padding-right:22px;
 }
@@ -1285,7 +1285,7 @@ SUBCATEGORIES
 ************************************************************************************************ */
 #search_block_top {
 	position: absolute;
-	top: 73px;
+	top: 40px;
 	right: 0px;
 	margin: 0px 0px 0px 0px;
 }
