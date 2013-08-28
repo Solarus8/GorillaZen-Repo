@@ -129,6 +129,7 @@ STRUCTURE
 	margin: 0 auto;
 	padding: 0;
 	text-align: left;
+    background-color: #ffffff;
 }
 #right_column {
 	padding: 101px 0px 0px 0px;
