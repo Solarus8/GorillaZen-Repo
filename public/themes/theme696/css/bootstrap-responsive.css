@@ -132,6 +132,7 @@
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
     width: 1170px;
+    margin-top: 0px;
   }
   .span12 {
     width: 1170px;
@@ -482,6 +483,7 @@
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
     width: 724px;
+    margin-top: 0px;
   }
   .span12 {
     width: 724px;
