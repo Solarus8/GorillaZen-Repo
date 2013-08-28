@@ -1083,7 +1083,7 @@ SUBCATEGORIES
     width: 300px;
 }
 #header-inner {
-	padding: 172px 0px 0px 0px;
+	padding: 110px 0px 0px 0px;
 	position: relative;
 }
 /* ************************************************************************************************
@@ -1216,7 +1216,7 @@ SUBCATEGORIES
 ************************************************************************************************ */
 .blockuserinfo {
 	position: absolute;
-	top: 88px;
+	top: 82px;
 	right: 0px;
 }
 .blockuserinfo a span {
@@ -1234,7 +1234,7 @@ SUBCATEGORIES
 #header_user {
 	position: absolute;
 	right: 133px;
-	top: 88px;
+	top: 80px;
 	z-index: 99;
 	padding-right:22px;
 }
