@@ -3190,7 +3190,10 @@ span.our_price_display {
 .footer-bg-mob { background:url(../img/footer-bg.jpg) repeat-x left bottom #2e2e2e;}
 .block.blockcms_footer {
 }
-footer { position:relative;}
+footer {
+    position:relative;
+    padding-top: 36%;
+}
 footer .modules {
 	padding-bottom: 127px;
 }
