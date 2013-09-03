@@ -6188,7 +6188,7 @@ a.badge:focus {
 /* Fixes the whole menu to the bottom of the parent div */  
 #menu{
     position:absolute;
-    top:50;
+    top:50px;
 }
   
 /* Each individual menu item fixed to the bottom with display:inline-block to create elasticity */  
