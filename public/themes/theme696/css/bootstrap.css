@@ -6186,7 +6186,10 @@ a.badge:focus {
 #menuwrapper{ position:relative; height:160px; }  
   
 /* Fixes the whole menu to the bottom of the parent div */  
-#menu{position:absolute;bottom:0;}  
+#menu{
+    position:absolute;
+    top:50;
+}
   
 /* Each individual menu item fixed to the bottom with display:inline-block to create elasticity */  
 .menuitem{ position:fixed relative; bottom:0px;} 

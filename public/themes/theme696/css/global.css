@@ -3197,15 +3197,21 @@ footer {
 footer .modules {
 	padding-bottom: 127px;
 }
+/* Edited for GZ by RW */
 footer .block h4 {
-	font-size: 22px;
+    display: none;
+	/*font-size: 22px;
 	color: #ffffff;
 	font-weight: normal;
 	font-family: 'Fjalla One', sans-serif;
 	text-transform: uppercase;
 	padding: 0 0 2px 0;
 	margin: 43px 0 7px 0;
-	border-bottom: 3px solid #535353
+	border-bottom: 3px solid #535353*/
+}
+/* Added for GZ by RW */
+footer #menuwrapper #menu a img {
+    max-width: 30px;
 }
 footer .block h4 a {
 	color: #1c1c1c;
