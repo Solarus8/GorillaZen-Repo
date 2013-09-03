@@ -47,7 +47,7 @@
 .iview-block {display:block;position:absolute;z-index:5;}
 
 /* Direction nav styles (e.g. Next & Prev) */
-#iview div.iview-directionNav {position: absolute; top:206px; left:375px; z-index:9; width:1170px;height:48px;}
+#iview div.iview-directionNav {position: absolute; top:400px; left:375px; z-index:9; width:1170px;height:48px;}
 #iview div.iview-directionNav a {display: block;cursor: pointer;position: absolute;width:48px;height:48px;background-image: url(../img/bg_direction_nav.png); text-indent: -9999px;}
 #iview div.iview-directionNav a.iview-nextNav {right:0px;background-position:48px 0px;}
 #iview div.iview-directionNav a.iview-prevNav {left:0px;background-position: 0px 0px}
