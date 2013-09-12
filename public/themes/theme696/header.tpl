@@ -76,6 +76,9 @@
 <link href="{$css_dir}320.css" rel="stylesheet" type="text/css" media="all" />
 <link href="{$css_dir}480.css" rel="stylesheet" type="text/css" media="all" />
 <link href="{$css_dir}768.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom CSS Overrides -->
+<link href="{$css_dir}overrides.css" rel="stylesheet" type="text/css" media="all" />
+<!-- End Custom CSS Overrides -->
 {if isset($js_files)}
 {foreach from=$js_files item=js_uri}
 <script type="text/javascript" src="{$js_uri}"></script>
@@ -112,7 +115,7 @@
           {$HOOK_TOP}
          </div>
            </header>
-<div id="columns" class="container ">
+<div id="columns" class="container {if $page_name == 'index'}home-body{/if}">
                  <div class="row ">  
                  <div class="loader_page">    
                                 <aside id="left_column"  class="span3 column" style=" display:none">
