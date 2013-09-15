@@ -1,14 +1,24 @@
 /* CSS Document */
 
+/* Main menu styling improvements */
+
+#menu-custom > li:nth-child(1) > ul {
+    width: 195px;
+}
+
+#menu-custom > li:nth-child(1) > ul ul{
+    left: 195px;
+}
+
 #menu-custom > li:nth-child(3) > ul {
     width: 170px;
 }
 
+/* Responsive layout for positioning footer in relationship to slider */
+
 footer {
     padding-top:0%;
 }
-
-/* Responsive layout for positioning footer in relationship to slider */
 
 @media only screen and (max-width: 767px) {
 	.home-body{
