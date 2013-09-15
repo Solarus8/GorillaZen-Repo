@@ -2,14 +2,34 @@
 
 /* Main menu styling improvements */
 
+/* 1 */
 #menu-custom > li:nth-child(1) > ul {
     width: 195px;
 }
 
 #menu-custom > li:nth-child(1) > ul ul{
     left: 195px;
+    width: 170px;
 }
 
+/* 2 */
+#menu-custom > li:nth-child(2) > ul {
+    width: 340px;
+}
+
+#menu-custom > li:nth-child(2) > ul ul {
+    left: 340px;
+}
+
+#menu-custom > li:nth-child(2) > ul li:nth-child(-n + 2) ul {
+    width: 170px;
+}
+
+#menu-custom > li:nth-child(2) > ul li:nth-child(n + 4) ul {
+    width: 225px;
+}
+
+/* 3 */
 #menu-custom > li:nth-child(3) > ul {
     width: 170px;
 }
