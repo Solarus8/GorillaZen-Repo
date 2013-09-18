@@ -39,7 +39,7 @@
 }
 #menu-trigger.menu-custom-icon .menu-icon{background:url(../../../../img/main_sprite.png) no-repeat left -797px #000; }
 #menu-trigger .menu-icon{background:url(../../../../img/main_sprite.png) no-repeat left -749px #000;width:26px; height:26px; display:block; position:absolute; top:5px; right:16px;}
-#menu-custom {margin: 0; padding: 0px;position: absolute;top: 35px;width: 100%;z-index: 1;background-color: #144054;display: none; border-top:3px solid #297ea5;}
+#menu-custom {margin: 0; padding: 0px;position: absolute;top: 35px;width: 340px;z-index: 1;background-color: #ffffff;display: none; border-top:3px solid #297ea5;}
 #menu-custom:after {content: '';position: absolute;left: 25px;top: -11px;border-left: 8px solid transparent;border-right: 8px solid transparent;border-bottom: 8px solid #297ea5;}
 #menu-custom ul {position: static;visibility: visible;opacity: 1;margin: 0;background: none;-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none; box-shadow:none !important;-webkit-box-shadow:none; padding:0;}
 #menu-custom ul.menu-mobile-2 { display:none;}
@@ -51,7 +51,7 @@
 #menu-custom ul ul a { padding-left:60px !important;}
 #menu-custom ul ul ul a { padding-left:80px !important;}
 
-#menu-custom li a:hover, #menu-custom ul li a:hover {background: #297ea5 !important;}
+#menu-custom li a:hover, #menu-custom ul li a:hover {background: #ffffff !important;}
 #menu-custom ul a:hover, #menu-custom li li:hover > a, #menu-custom > li:hover > a,  #menu-custom > li.sfHoverForce > a {background:none; color:#000000; border-top: 1px solid #000000;}
 
 
