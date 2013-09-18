@@ -39,7 +39,8 @@
 }
 #menu-trigger.menu-custom-icon .menu-icon{background:url(../../../../img/main_sprite.png) no-repeat left -797px #000; }
 #menu-trigger .menu-icon{background:url(../../../../img/main_sprite.png) no-repeat left -749px #000;width:26px; height:26px; display:block; position:absolute; top:5px; right:16px;}
-#menu-custom {margin: 0; padding: 0px;position: absolute;top: 35px;width: 340px;z-index: 1;background-color: #ffffff;display: none; border-top:3px solid #297ea5;}
+#menu-custom {margin: 0; padding: 0px;position: absolute;top: 35px;width: 340px;z-index: 1;background-color: #ffffff;display: none; border-top:3px solid #ffffff;-webkit-box-shadow: 0px 4px 8px #efefef;
+    box-shadow: 0px 4px 8px #efefef;}
 #menu-custom:after {content: '';position: absolute;left: 25px;top: -11px;border-left: 8px solid transparent;border-right: 8px solid transparent;border-bottom: 8px solid #297ea5;}
 #menu-custom ul {position: static;visibility: visible;opacity: 1;margin: 0;background: none;-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none; box-shadow:none !important;-webkit-box-shadow:none; padding:0;}
 #menu-custom ul.menu-mobile-2 { display:none;}
