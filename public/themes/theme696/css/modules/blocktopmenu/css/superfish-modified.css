@@ -52,7 +52,7 @@
 #menu-custom ul ul ul a { padding-left:80px !important;}
 
 #menu-custom li a:hover, #menu-custom ul li a:hover {background: #297ea5 !important;}
-#menu-custom ul a:hover, #menu-custom li li:hover > a, #menu-custom > li:hover > a,  #menu-custom > li.sfHoverForce > a {background:none; color:#FFFFFF; border-top: 1px solid #000000;}
+#menu-custom ul a:hover, #menu-custom li li:hover > a, #menu-custom > li:hover > a,  #menu-custom > li.sfHoverForce > a {background:none; color:#000000; border-top: 1px solid #000000;}
 
 
 .open-mobile-2{width:18px;height:18px;display:block;position:absolute;right:19px;top:9px;background:url(../../../../img/main_sprite.png) no-repeat left -1213px;}
