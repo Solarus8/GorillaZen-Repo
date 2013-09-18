@@ -55,9 +55,9 @@
 #menu-custom ul a:hover, #menu-custom li li:hover > a, #menu-custom > li:hover > a,  #menu-custom > li.sfHoverForce > a {background:none; color:#FFFFFF; border-top: 1px solid #000000;}
 
 
-.open-mobile-2{width:18px;height:18px;display:block;position:absolute;right:16px;top:15px;background:url(../../../../img/main_sprite.png) no-repeat left -715px;}
+.open-mobile-2{width:18px;height:18px;display:block;position:absolute;right:19px;top:9px;background:url(../../../../img/main_sprite.png) no-repeat left -1213px;}
 .open-mobile-2:hover{ cursor:pointer;}
-.open-mobile-2.mobile-close-2{background:url(../../../../img/main_sprite.png) no-repeat left -846px;}
+.open-mobile-2.mobile-close-2{background:url(../../../../img/main_sprite.png) no-repeat left -1254px;}
 .open-mobile.mobile-close{background:url(../../../../img/main_sprite.png) no-repeat left -846px;}
 #menu-custom {margin-left:0px;}
 .no-transition {-webkit-transition: none;-moz-transition: none;-ms-transition: none;-o-transition: none;transition: none;opacity: 1;visibility: visible;display: none;}
