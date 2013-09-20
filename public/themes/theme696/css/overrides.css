@@ -151,3 +151,9 @@ footer {
 #center_column h1 {
     margin-top: 60px;
 }
+
+.cms_title_lifestyle {
+    font-family: 'Fjalla One', sans-serif;
+    color: #777;
+    font-size: x-large;
+}
