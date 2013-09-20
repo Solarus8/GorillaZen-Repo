@@ -83,54 +83,71 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-	.home-body{
-	height:83px !important;
-	}
+    .home-body{
+        height:83px !important;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-	.home-body{
-	height:0px !important;
-	}
+    .home-body{
+        height:0px !important;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-	.home-body{
-	height:552px;
-	}
+    .home-body{
+        height:552px;
+    }
 }
 @media only screen and (min-width: 768px)  and (max-width: 980px) {
-	.home-body{
-	height:552px;
-	}
+    .home-body{
+        height:552px;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.home-body{
-	height:83px;
-	}
+    .home-body{
+        height:83px;
+    }
 }
 
 @media only screen and (min-width: 950px) and (max-width: 1199px) {
-	.home-body{
-	height:552px !important;
-	}
+    .home-body{
+        height:552px !important;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
-	.home-body{
-	height:552px !important;
-	}
+    .home-body{
+        height:552px !important;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-	.home-body{
-	height:212px !important;
-	}	
+    .home-body{
+        height:212px !important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-	.home-body{
-	height:212px;
-	}	
+    .home-body{
+        height:212px;
+    }
+}
+
+/* Internal pages image banner */
+
+.breadcrumb {
+    z-index: 2;
+    position: absolute;
+    background-color:rgba(255,255,255,0.5);
+    border: none;
+}
+
+.cms_image_banner {
+    position: relative;
+}
+
+#center_column h1 {
+    margin-top: 60px;
 }
