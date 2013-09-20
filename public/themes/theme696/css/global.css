@@ -1113,8 +1113,8 @@ SUBCATEGORIES
 	line-height: 1.2em;
 	text-transform: uppercase;
 }
-#header_links li a:hover, body#index a.header_links_home, #sitemap a.header_links_sitemap, #contact a.header_links_contact, #cms a.header_links_delivery, #stores a.header_links_store {
-	color: #191919;
+#header_links li a:hover, body#index a.header_links_home, body#sitemap a.header_links_sitemap, body#contact a.header_links_contact, #cms a.header_links_delivery, #stores a.header_links_store {
+	color: #005580;
 }
 .mobile-link-top {
 	display: none;
@@ -5823,7 +5823,7 @@ h2, h3 {
 {
 	font-size: 14px;
 	padding: 0 0px 0 0;
-	color: #ffffff;
+	color: #000000;
 	font-weight: bold;
 	display: inline-block;
 	text-transform: uppercase;
