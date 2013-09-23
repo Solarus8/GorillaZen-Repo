@@ -15,10 +15,10 @@
 #iview .sll{ display:block; width:100%!important}
 
 #iview .iviewSlider {display: block;width:1920px !important;height:700px !important;overflow: hidden;margin:0;padding:0;}
-.caption-width { width:375px; position:absolute; top:50px; left:50px;}
-.caption-width.item2{ left:549px;}
-.caption-width.item3{ left:577px; top:43px;}
-.iview-caption {z-index:4;overflow: hidden;cursor: default;}
+.caption-width { width:375px; position:absolute; top:80%; left:20%; right:auto; bottom:auto; }
+/*.caption-width.item2{ left:549px;}
+.caption-width.item3{ left:577px; top:43px;}*/
+.iview-caption {z-index:4;overflow: hidden;cursor: default; top:50%; left:60%; right:auto; bottom:auto; }
 .iview-caption.caption1 {}
 .iview-caption.caption2 {}
 .iview-caption.caption3 {}

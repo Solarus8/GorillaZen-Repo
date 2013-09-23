@@ -157,3 +157,9 @@ footer {
     color: #777;
     font-size: x-large;
 }
+
+/* Footer */
+
+footer .block ul li {
+    margin-left: 2em;
+}
