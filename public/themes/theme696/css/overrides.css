@@ -1,6 +1,6 @@
 /* CSS Document */
 
-/* Main menu styling improvements */
+/************** Main menu styling improvements *******************************/
 
 /* 1 */
 #menu-custom > li:nth-child(1) > ul {
@@ -76,7 +76,7 @@
     background-position-y: 5px;
 }
 
-/* Responsive layout for positioning footer in relationship to slider */
+/************** Responsive layout for positioning footer in relationship to slider **************/
 
 footer {
     padding-top:0%;
@@ -135,7 +135,7 @@ footer {
     }
 }
 
-/* Internal pages image banner */
+/**************** Internal pages image banner ******************/
 
 .breadcrumb {
     z-index: 2;
@@ -158,8 +158,15 @@ footer {
     font-size: x-large;
 }
 
-/* Footer */
+/*************** Footer ***************************************/
 
+/* public/themes/theme696/css/global.css */
 footer .block ul li {
-    margin-left: 2em;
+    border: none !important;
+    background: none !important;
+}
+
+/* http://testonly.gorillazen.com/themes/theme696/css/bootstrap-responsive.css */
+.row {
+    margin-left: none !important;
 }
