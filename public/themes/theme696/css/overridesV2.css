@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+
+#index{
+	background-color:#181818;
+}
+
+#wrapp{
+	padding-top:0px;
+	overflow-y:visible;
+}
+
+.home-body {
+    height: 82px !important;
+}
+
+.blockuserinfo span#login{
+	color:#FFF !important;
+	padding-left:30px;
+}
+
+#menu-trigger {
+	white-space:nowrap;
+}
+
+footer .modules .block ul{ display:block !important;}
+
+}
+
+@media only screen and (min-width: 768px) {
+	#menu-trigger {
+		display:none !important;
+}
+}

@@ -78,6 +78,7 @@
 <link href="{$css_dir}768.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom CSS Overrides -->
 <link href="{$css_dir}overrides.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{$css_dir}overridesV2.css" rel="stylesheet" type="text/css" media="all" />
 <!-- End Custom CSS Overrides -->
 {if isset($js_files)}
 {foreach from=$js_files item=js_uri}
