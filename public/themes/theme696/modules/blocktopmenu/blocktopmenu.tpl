@@ -6,12 +6,12 @@
             <li>
             <a href="#">SOCIAL MEDIA</a>
             	<ul>
-                	<li><a href="https://www.facebook.com/GorillaZen">Facebook</a></li>
-                    <li><a href="https://plus.google.com/102854063747993443901/posts">Google+</a></li>
-                    <li><a href="http://www.linkedin.com/company/3196485">LinkedIn</a></li>
-                    <li><a href="https://twitter.com/GorillaZen360">Twitter</a></li>
-                    <li><a href="http://pinterest.com/gorillazen/pins/">Pinterest</a></li>
-                    <li><a href="https://www.youtube.com/GorillaZen360">Youtube</a></li>
+                	<li><a href="https://www.facebook.com/GorillaZen" target="_blank">Facebook</a></li>
+                    <li><a href="https://plus.google.com/102854063747993443901/posts" target="_blank">Google+</a></li>
+                    <li><a href="http://www.linkedin.com/company/3196485" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/GorillaZen360" target="_blank">Twitter</a></li>
+                    <li><a href="http://pinterest.com/gorillazen/pins/" target="_blank">Pinterest</a></li>
+                    <li><a href="https://www.youtube.com/GorillaZen360" target="_blank">Youtube</a></li>
                     </ul>
              </li>
 			{if $MENU_SEARCH}
