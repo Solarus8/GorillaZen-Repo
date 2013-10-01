@@ -168,5 +168,5 @@ footer .block ul li {
 
 /* http://testonly.gorillazen.com/themes/theme696/css/bootstrap-responsive.css */
 .row {
-    margin-left: none !important;
+    margin-left: 0 !important;
 }

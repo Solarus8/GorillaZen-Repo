@@ -14,7 +14,9 @@
 	<div class="container-slides">
 		<div id="iview">
 	{foreach from=$xml->link item=home_link name=links}
-    <a class="sll" href="{$home_link->url}" data-iview:image="{$this_path}{$home_link->img}" >
+
+    {* This was an 'a' tag - changed to div to remove linking behavior *}
+    <div class="sll" href="{$home_link->url}" data-iview:image="{$this_path}{$home_link->img}" >
 
             <div class="caption-width item{$smarty.foreach.links.iteration}" >
 			<h2 class="iview-caption"  data-transition="expandRight">{$home_link->$field1}</h2>
@@ -27,11 +29,8 @@
             {/if}
 			<span class="slide_btn iview-caption"  data-transition="expandRight" href="{$home_link->url}">{$home_link->$field5}</span>
             
-            </div>      
-	 </a>
-     
-     
-     
+            </div>
+	 </div>
 	 {/foreach}   
 </div></div>
 <script type="text/javascript" src="{$this_path}js/script.js"></script>
