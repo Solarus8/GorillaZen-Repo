@@ -27,7 +27,7 @@
             <h2 class="iview-caption">&nbsp;</h2>
             <div class="iview-caption hotspot" data-transition="expandRight" onmouseover="slider_tooltip.show('{$home_link->$field4}');" onmouseout="slider_tooltip.hide();"></div>
             {/if}
-			<span class="slide_btn iview-caption"  data-transition="expandRight" href="{$home_link->url}">{$home_link->$field5}</span>
+			<span class="slide_btn iview-caption"  data-transition="expandRight" </span>
             
             </div>
 	 </div>
