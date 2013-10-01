@@ -28,12 +28,12 @@
 	<div id="menuwrapper">  
     <div id="menu"> 
 	<!--<ul class="toggle_content">--><!-- toggle_content -->
-		{if $facebook_url != ''}<a href="{$facebook_url|escape:html:'UTF-8'}" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/fb-logo.png>' mod='blocksocial'}</a>
-		{if $google_url != ''}<a href="{$google_url|escape:html:'UTF-8'}" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/google-plus.png>' mod='blocksocial'}</a>
-		{if $linkedIn_url != ''}<a href="{$linkedIn_url|escape:html:'UTF-8'}" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/linkedinbig-logo.png>' mod='blocksocial'}</a>
-		{if $twitter_url != ''}<a href="{$twitter_url|escape:html:'UTF-8'}" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/twitterbig-logo.png>' mod='blocksocial'}</a>
-		{if $pinterest_url != ''}<a href="{$pinterest_url|escape:html:'UTF-8'}" class="menuitem">{l s='<img src=../themes/theme696/css/modules/blocksocial/img/pinterestbig-logo.png>' mod='blocksocial'}</a>
-		{if $youtube_url != ''}<a href="{$youtube_url|escape:html:'UTF-8'}" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/youtubebig-logo.png>' mod='blocksocial'}</a>
+		{if $facebook_url != ''}<a href="{$facebook_url|escape:html:'UTF-8'}" target="_blank" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/fb-logo.png>' mod='blocksocial'}</a>
+		{if $google_url != ''}<a href="{$google_url|escape:html:'UTF-8'}" target="_blank" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/google-plus.png>' mod='blocksocial'}</a>
+		{if $linkedIn_url != ''}<a href="{$linkedIn_url|escape:html:'UTF-8'}" target="_blank" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/linkedinbig-logo.png>' mod='blocksocial'}</a>
+		{if $twitter_url != ''}<a href="{$twitter_url|escape:html:'UTF-8'}" target="_blank" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/twitterbig-logo.png>' mod='blocksocial'}</a>
+		{if $pinterest_url != ''}<a href="{$pinterest_url|escape:html:'UTF-8'}" target="_blank" class="menuitem">{l s='<img src=../themes/theme696/css/modules/blocksocial/img/pinterestbig-logo.png>' mod='blocksocial'}</a>
+		{if $youtube_url != ''}<a href="{$youtube_url|escape:html:'UTF-8'}" target="_blank" class="menuitem">{l s='<img  src=../themes/theme696/css/modules/blocksocial/img/youtubebig-logo.png>' mod='blocksocial'}</a>
 		{if $rss_url != ''}<a href="{$rss_url|escape:html:'UTF-8'}">{l s='RSS' mod='blocksocial'}</a>{/if}{/if}{/if}{/if}{/if}{/if}{/if}
 		<!--{if $google_url != ''}<li class="google"><a href="{$google_url|escape:html:'UTF-8'}">{l s='GOOGLE+' mod='blocksocial'}</a></li>{/if}
 		{if $linkedIn_url != ''}<li class="linkedIn"><a href="{$linkedIn_url|escape:html:'UTF-8'}">{l s='<img src=../themes/theme696/css/modules/blocksocial/img/linkedin-logo.png>' mod='blocksocial'}</a></li>{/if}
