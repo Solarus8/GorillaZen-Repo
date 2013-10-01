@@ -36,7 +36,7 @@
 			
 		</div> </div>
 		{else}
-			<a href="{$link->getPageLink('my-account', true)}" title="{l s='Login' mod='blockuserinfo'}" class="login" rel="tooltip" data-placement="bottom" data-original-title="first tooltip" ><span id='login'>Login</span></a>
+			<a href="{$link->getPageLink('my-account', true)}" title="{l s='Login' mod='blockuserinfo'}" class="login" data-placement="bottom" data-original-title="first tooltip" ><span id='login'>Login</span></a>
 		{/if}		
 </section>
 

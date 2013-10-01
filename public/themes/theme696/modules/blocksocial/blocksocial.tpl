@@ -23,7 +23,7 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of GORILLA ZEN, LLC™ SA 
 *}
-<section class="block blocksocial span9">
+<section class="block blocksocial span12">
 	<h4>{l s='Follow us' mod='blocksocial'}</h4>
 	<div id="menuwrapper">  
     <div id="menu"> 

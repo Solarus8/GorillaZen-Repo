@@ -170,3 +170,11 @@ footer .block ul li {
 .row {
     margin-left: 0 !important;
 }
+
+footer .block ul li {
+    padding: 0px !important;
+}
+
+.span12 {
+    margin-left: 0px !important;
+}
