@@ -14,66 +14,65 @@
 
 /* 2 */
 #menu-custom > li:nth-child(2) > ul {
-    width: 340px;
+    width: 174px;
 }
 
 #menu-custom > li:nth-child(2) > ul ul {
-    left: 340px;
+    left: 174px;
+    width: 160px;
 }
 
-#menu-custom > li:nth-child(2) > ul li:nth-child(-n + 2) ul {
-    width: 170px;
+#menu-custom > li:nth-child(2) > ul li:nth-child(n + 2) ul {
+    width: 160px;
+}
+
+#menu-custom > li:nth-child(2) > ul li:nth-child(n + 3) ul {
+    width: 205px;
 }
 
 #menu-custom > li:nth-child(2) > ul li:nth-child(n + 4) ul {
-    width: 225px;
+    width: 205px;
 }
 
 /* 3 */
 #menu-custom > li:nth-child(3) > ul {
-    width: 170px;
+    width: 139px;
 }
 
 #menu-custom > li:nth-child(3) > ul li:nth-child(1) a {
     background: url(../img/facebook_icon_gray.png) no-repeat 30px center;
     background-size: 16px 16px;
-    background-position-x: 25px;
-    background-position-y: 5px;
+    background-position: 8px 6px;
 }
 
 #menu-custom > li:nth-child(3) > ul li:nth-child(2) a {
     background: url(../img/google_icon_gray.png) no-repeat 30px center;
     background-size: 16px 16px;
-    background-position-x: 25px;
-    background-position-y: 5px;
+    background-position: 8px 6px;
 }
 
 #menu-custom > li:nth-child(3) > ul li:nth-child(3) a {
     background: url(../img/linkedin_icon_gray.png) no-repeat 30px center;
     background-size: 16px 16px;
-    background-position-x: 25px;
-    background-position-y: 5px;
+    background-position: 8px 6px;
 }
 
 #menu-custom > li:nth-child(3) > ul li:nth-child(4) a {
     background: url(../img/twitter_icon_gray.png) no-repeat 30px center;
     background-size: 16px 16px;
-    background-position-x: 25px;
-    background-position-y: 5px;
+    background-position: 8px 6px;
 }
 
 #menu-custom > li:nth-child(3) > ul li:nth-child(5) a {
     background: url(../img/pinterest_icon_gray.png) no-repeat 30px center;
     background-size: 16px 16px;
-    background-position-x: 25px;
-    background-position-y: 5px;
+    background-position: 8px 6px;
 }
 
 #menu-custom > li:nth-child(3) > ul li:nth-child(6) a {
     background: url(../img/youtube_icon_gray.png) no-repeat 30px center;
     background-size: 16px 16px;
-    background-position-x: 25px;
-    background-position-y: 5px;
+    background-position: 8px 6px;
 }
 
 /************** Responsive layout for positioning footer in relationship to slider **************/
@@ -164,17 +163,14 @@ footer {
 footer .block ul li {
     border: none !important;
     background: none !important;
-}
-
-/* http://testonly.gorillazen.com/themes/theme696/css/bootstrap-responsive.css */
-.row {
-    margin-left: 0 !important;
-}
-
-footer .block ul li {
     padding: 0px !important;
 }
 
-.span12 {
+/* http://testonly.gorillazen.com/themes/theme696/css/bootstrap-responsive.css */
+/*.row {
+    margin-left: 0 !important;
+}*/
+
+/*.span12 {
     margin-left: 0px !important;
-}
+}*/
