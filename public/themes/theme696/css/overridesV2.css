@@ -1,29 +1,25 @@
 @media only screen and (max-width: 767px) {
 
-#wrapp{
-	padding-top:0px;
-	overflow-y:visible;
-}
+    #wrapp{
+        padding-top:0px;
+        overflow-y:visible;
+    }
 
-.home-body {
-    height: 82px !important;
-}
+    .blockuserinfo span#login{
+        color:#FFF !important;
+        padding-left:30px;
+    }
 
-.blockuserinfo span#login{
-	color:#FFF !important;
-	padding-left:30px;
-}
+    #menu-trigger {
+        white-space:nowrap;
+    }
 
-#menu-trigger {
-	white-space:nowrap;
-}
-
-footer .modules .block ul{ display:block !important;}
+    footer .modules .block ul{ display:block !important;}
 
 }
 
 @media only screen and (min-width: 768px) {
 	#menu-trigger {
 		display:none !important;
-}
+    }
 }

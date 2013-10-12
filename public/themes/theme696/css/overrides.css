@@ -92,6 +92,10 @@ footer {
         #height:0px !important;
     }
 
+    body#index #center_column {
+        display: none;
+    }
+
     footer .modules .block ul {
         margin-left: 30px !important;
     }
@@ -127,6 +131,10 @@ footer {
 
     .blockcms_footer ul.list-footer li a {
         width: 150px !important;
+    }
+
+    #menu-trigger {
+        white-space:nowrap;
     }
 }
 
