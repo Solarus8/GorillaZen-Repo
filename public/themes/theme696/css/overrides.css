@@ -81,18 +81,6 @@ footer {
     padding-top:0%;
 }
 
-/*@media only screen and (max-width: 767px) {
-    .home-body{
-        height:83px !important;
-    }
-}*/
-
-/*@media only screen and (max-width: 500px) {
-    .home-body{
-        height:0px !important;
-    }
-}*/
-
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     .home-body{
         height:552px;
@@ -117,11 +105,21 @@ footer {
     .home-body{
         height:552px !important;
     }
+
+    ul.list-footer.toggle_content.clearfix {
+        margin-left: 70px !important;
+        width: 950px !important;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     .home-body{
         height:552px !important;
+    }
+
+    ul.list-footer.toggle_content.clearfix {
+        margin-left: 150px !important;
+        width: 1000px !important;
     }
 }
 
@@ -155,6 +153,15 @@ footer .block ul li {
     border: none !important;
     background: none !important;
     padding: 0px !important;
+}
+
+/* public/themes/theme696/css/768.css:20 */
+footer .block .list-footer li a {
+    padding-right: 0px !important;
+}
+
+.blockcms_footer ul.list-footer li a {
+    width: 200px !important;
 }
 
 /* http://testonly.gorillazen.com/themes/theme696/css/bootstrap-responsive.css */
