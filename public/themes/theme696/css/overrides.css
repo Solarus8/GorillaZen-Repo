@@ -83,8 +83,28 @@ footer {
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     .home-body{
-        height:552px;
         #height:0px !important;
+    }
+
+    #wrapp_2 {
+        background-color: #2e2e2e !important;
+    }
+
+    footer .modules .block ul {
+        margin-left: 30px !important;
+    }
+
+    footer .block ul li a {
+        font-size: 12px;
+        line-height: 26px;
+    }
+
+    .blockcms_footer ul.list-footer li a {
+        width: 160px;
+    }
+
+    .blockcms_footer ul.list-footer li {
+        margin-right: 10px;
     }
 }
 
@@ -92,14 +112,41 @@ footer {
     .home-body{
         height:83px !important;
     }
+
+    footer .block ul li a {
+        font-size: 12px !important;
+        line-height: 28px !important;
+    }
+
+    footer .modules .block ul {
+        margin-left: 70px !important;
+        width: 700px !important;
+    }
+
+    .blockcms_footer ul.list-footer li a {
+        width: 150px !important;
+    }
 }
 
 @media only screen and (min-width: 768px)  and (max-width: 979px) {
     .home-body{
-        height:552px !important;
+        height:210px !important;
+    }
+
+    footer .block ul li a {
+        font-size: 12px !important;
+        line-height: 28px !important;
+    }
+
+    ul.list-footer.toggle_content.clearfix {
+        margin-left: 20px !important;
+        width: 920px !important;
+    }
+
+    .blockcms_footer ul.list-footer li a {
+        width: 180px !important;
     }
 }
-
 
 @media only screen and (min-width: 980px) and (max-width: 1199px) {
     .home-body{
@@ -110,6 +157,10 @@ footer {
         margin-left: 70px !important;
         width: 950px !important;
     }
+
+    .blockcms_footer ul.list-footer li a {
+        width: 190px !important;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -118,8 +169,12 @@ footer {
     }
 
     ul.list-footer.toggle_content.clearfix {
-        margin-left: 150px !important;
+        margin-left: 160px !important;
         width: 1000px !important;
+    }
+
+    .blockcms_footer ul.list-footer li a {
+        width: 190px !important;
     }
 }
 
@@ -158,10 +213,6 @@ footer .block ul li {
 /* public/themes/theme696/css/768.css:20 */
 footer .block .list-footer li a {
     padding-right: 0px !important;
-}
-
-.blockcms_footer ul.list-footer li a {
-    width: 200px !important;
 }
 
 /* http://testonly.gorillazen.com/themes/theme696/css/bootstrap-responsive.css */
