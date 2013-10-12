@@ -81,13 +81,15 @@ footer {
     padding-top:0%;
 }
 
+#index{
+    background-color:#181818 !important;
+}
+
+/* MEDIA QUERIES */
+
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     .home-body{
         #height:0px !important;
-    }
-
-    #wrapp_2 {
-        background-color: #2e2e2e !important;
     }
 
     footer .modules .block ul {
@@ -134,7 +136,7 @@ footer {
     }
 
     footer .block ul li a {
-        font-size: 12px !important;
+        font-size: 14px !important;
         line-height: 28px !important;
     }
 
@@ -146,6 +148,10 @@ footer {
     .blockcms_footer ul.list-footer li a {
         width: 180px !important;
     }
+
+    /*body#index {
+        background-color: #181818 !important;
+    }*/
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1199px) {
@@ -214,12 +220,3 @@ footer .block ul li {
 footer .block .list-footer li a {
     padding-right: 0px !important;
 }
-
-/* http://testonly.gorillazen.com/themes/theme696/css/bootstrap-responsive.css */
-/*.row {
-    margin-left: 0 !important;
-}*/
-
-/*.span12 {
-    margin-left: 0px !important;
-}*/
