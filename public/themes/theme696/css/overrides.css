@@ -197,11 +197,17 @@ footer {
 /* global.css:3214 */
 footer #menuwrapper #menu a img {
     position: absolute !important;
+    transition-property: max-width;
+    transition-duration: .25s;
+    transition-timing-function: linear;
 }
 
 /* global.css:3222 */
 footer #menuwrapper #menu a {
     margin-left: 33px;
+    transition-property: margin-left;
+    transition-duration: .25s;
+    transition-timing-function: linear;
 }
 
 footer #menuwrapper #menu a:hover > img {
