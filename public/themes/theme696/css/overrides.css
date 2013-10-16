@@ -75,7 +75,7 @@
     background-position: 8px 6px;
 }
 
-/************** Responsive layout for positioning footer in relationship to slider **************/
+/************** Responsive layout for positioning footer in relation to slider **************/
 
 footer {
     padding-top:0%;
@@ -156,10 +156,6 @@ footer {
     .blockcms_footer ul.list-footer li a {
         width: 180px !important;
     }
-
-    /*body#index {
-        background-color: #181818 !important;
-    }*/
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1199px) {
@@ -190,6 +186,28 @@ footer {
     .blockcms_footer ul.list-footer li a {
         width: 190px !important;
     }
+}
+
+/**************** Footer social icons ******************/
+
+/*.blocksocial #menu {
+    text-align: center;
+    width: 300px;
+}*/
+
+/* global.css:3214 */
+footer #menuwrapper #menu a img {
+    position: absolute !important;
+}
+
+/* global.css:3222 */
+footer .block a {
+    margin-left: 33px !important;
+}
+
+footer #menuwrapper #menu a img:hover {
+    max-width: 50px;
+    z-index: 99;
 }
 
 /**************** Internal pages image banner ******************/
