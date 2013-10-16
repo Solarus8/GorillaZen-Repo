@@ -190,10 +190,9 @@ footer {
 
 /**************** Footer social icons ******************/
 
-/*.blocksocial #menu {
-    text-align: center;
+.blocksocial #menu {
     width: 300px;
-}*/
+}
 
 /* global.css:3214 */
 footer #menuwrapper #menu a img {
@@ -202,12 +201,16 @@ footer #menuwrapper #menu a img {
 
 /* global.css:3222 */
 footer #menuwrapper #menu a {
-    margin-left: 33px !important;
+    margin-left: 33px;
 }
 
-footer #menuwrapper #menu a img:hover {
+footer #menuwrapper #menu a:hover > img {
     max-width: 50px;
     z-index: 99;
+}
+
+footer #menuwrapper #menu a:hover + a {
+    margin-left: 53px;
 }
 
 /**************** Internal pages image banner ******************/
